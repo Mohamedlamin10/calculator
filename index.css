@@ -1,0 +1,40 @@
+#inb{
+    background-color: rgba(12, 9, 3, 0.877);
+    width: 330px;
+    height: 57px;
+    border: 0cm;
+    border-radius: 8px;
+    position: relative;
+    top: 23px;
+    left: 10px;
+    color: antiquewhite;
+    text-indent: 10px;
+}
+#data{
+    list-style: none;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-left: -30px;
+    height: 52px;
+    margin-top: 76px;
+}
+ul li{
+    width: 76px;
+    background-color: #c7b7a4;
+    margin: 6px;
+    height: 53px;
+    border-radius: 44px;
+    text-align: center;
+    margin-top: 9px;
+    padding-top: 17px;
+}
+#ope{
+    color: #4e702b;
+}
+#c{
+    color: firebrick;
+}
+#egal{
+   
+    background-color: #4e702b;
+}

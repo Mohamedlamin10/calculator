@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="./bin/bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+</head>
+<body>
+    <div id="inb"></div>
+    <div id="container">
+        <ul id="data">
+            <li id="cl">C</li>
+            <li id="del" >Del</li>
+            <li  class="ope"  id="mod">%</li>
+            <li class="ope" onclick="display('/')" id="divi">/</i></li>
+            <li id="numbers" onclick="display('7')" data-val="7">7</li>
+            <li id="numbers" onclick="display('8')" data-val="8">8</li>
+            <li id="numbers" onclick="display('9')" data-val="9">9</li>
+            <li id="mul" class="ope" >x</li>
+            <li id="numbers" onclick="display('4')" data-val="4">4</li>
+            <li id="numbers" onclick="display('5')" data-val="5">5</li>
+            <li id="numbers" onclick="display('6')" data-val="6">6</li>
+            <li class="ope"  id="mains">-</li>
+            <li id="numbers" onclick="display('1')" data-val="1">1</li>
+            <li id="numbers" onclick="display('2')" data-val="2">2</li>
+            <li id="numbers" onclick="display('3')" data-val="3">3</li>
+            <li class="ope"  id="plu">+</li>
+            <li id="inv" class="ope" onclick="display('\(-')">+/-</li>
+            <li id="numbers" onclick="display('0')" data-val="0">0</li>
+            <li id="numbers" onclick="display('.')" data-val="0.">.</li>
+            <li id="egal" onclick="calculate()">=</li>
+        </ul>
+      
+    </div>
+
+ <script src="index.js"></script>   
+</body>
+</html>
